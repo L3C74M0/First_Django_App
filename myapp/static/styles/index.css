@@ -1,0 +1,51 @@
+body {
+  background-color: #202020;
+  color: whitesmoke
+}
+
+.navbar {
+  background-color: #404040;
+  padding: 4px 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li a {
+  color: #C0C0C0;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10 10px;
+}
+
+.card {
+  background: #404040;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+
+.card a {
+  color: white;
+}
+
+.input {
+  background: #404040;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
